@@ -1,0 +1,9 @@
+pipeline:
+  run-tests:
+    image: node:10.11.0
+    commands:
+      - chmod +x ./bin/drone-tests.sh
+      - ./bin/drone-tests.sh
+    when:
+      status: [ failure, success ]
+      event: [ pull_request, push ]
