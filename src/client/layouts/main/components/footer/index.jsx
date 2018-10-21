@@ -16,16 +16,18 @@ const Footer = ({ state }) => {
       <footer className={styles.footer}>
         <div>
           <Logo />
-          <div>© {currentYear}, All rights reserved</div>
+          <div>
+            {`© ${currentYear}, All rights reserved`}
+          </div>
         </div>
 
         <div className={styles.links}>
           <Link prefetch href="/privacy-policy" className={styles.link}>
-            Privacy
+            {'Privacy'}
           </Link>
 
           <Link prefetch href="/terms" className={styles.link}>
-            Terms
+            {'Terms'}
           </Link>
         </div>
       </footer>

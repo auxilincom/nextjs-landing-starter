@@ -16,7 +16,12 @@ class Header extends Component {
   };
 
   isActiveLink(href) {
-    return this.props.router.pathname === href;
+    const {
+      router: {
+        pathname,
+      },
+    } = this.props;
+    return pathname === href;
   }
 
   render() {
@@ -37,7 +42,7 @@ class Header extends Component {
                 })}
                 href="/privacy-policy"
               >
-                Privacy Policy
+                {'Privacy Policy'}
               </a>
             </Link>
           </li>
@@ -49,7 +54,7 @@ class Header extends Component {
                 })}
                 href="/terms"
               >
-                Terms of Service
+                {'Terms of Service'}
               </a>
             </Link>
           </li>

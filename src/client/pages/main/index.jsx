@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 
 import Rocket from '~/static/rocket.svg';
 
@@ -21,6 +22,10 @@ import styles from './styles.pcss';
 
 export default () => (
   <Layout className={styles.layout}>
+    <Head>
+      <title>A brand new next.js landing website</title>
+    </Head>
+
     <Layout.HeaderContent state={states.purple}>
       <div className={styles.page}>
         <div className={styles.container}>
@@ -28,10 +33,10 @@ export default () => (
             <h1 className={styles.title}>The new standard in starters for landing websites</h1>
 
             <p className={styles.description}>
-              Ship is a tool which help you setup your new product in matter of
+              {`Ship is a tool which help you setup your new product in matter of
               minutes. Ship is based on Stack. Stack is an number of open-source
               components, resulted from years of hard work on a number of awesome
-              products.
+              products.`}
             </p>
 
             <ButtonLink
@@ -41,7 +46,7 @@ export default () => (
               href="/signup"
               prefetch
             >
-              Create Account
+              {'Create Account'}
             </ButtonLink>
           </div>
 
@@ -57,9 +62,9 @@ export default () => (
         <h2>THE COMPLETE SET OF TOOLS TO START YOUR PROJECT</h2>
 
         <p>
-          Shipping is crucial part of any new product. The quicker you ship, the
+          {`Shipping is crucial part of any new product. The quicker you ship, the
           more time you have to validate your hypotheses. The quicker you validate
-          your idea, the sooner you know if you&apos;re building what people want.
+          your idea, the sooner you know if you're building what people want.`}
         </p>
       </div>
 

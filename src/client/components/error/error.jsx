@@ -10,7 +10,9 @@ const formatError = (err) => {
   if (err instanceof ApiError) {
     if (err.serverError) {
       return defaultMessage;
-    } else if (err._status === 400) {
+    }
+
+    if (err._status === 400) {
       if (err.data && err.data.errors) {
         let errorText = '';
 

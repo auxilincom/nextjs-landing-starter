@@ -21,8 +21,8 @@ export default class ForgotPassword extends PureComponent {
       <div>
         <h2>Email Sent</h2>
         <p>
-          Check your email for a link to reset your password. If it doesn&apos;t
-          appear within a few minutes, check your spam folder.
+          {`Check your email for a link to reset your password. If it doesn&apos;t
+          appear within a few minutes, check your spam folder.`}
         </p>
       </div>
     );
@@ -50,8 +50,10 @@ export default class ForgotPassword extends PureComponent {
     this.setState({ isLoading: true, error: null });
     const newState = {};
 
+    const { email } = this.state;
+
     try {
-      await forgotPassword({ email: this.state.email });
+      await forgotPassword({ email });
       newState.emailSent = true;
     } catch (error) {
       newState.error = error;
@@ -64,12 +66,18 @@ export default class ForgotPassword extends PureComponent {
   }
 
   form() {
+    const {
+      email,
+      error,
+      isLoading,
+    } = this.state;
+
     return [
       <h2 key="title">Reset Your Password</h2>,
       <Form key="form" onSubmit={this.submitSigninAsync}>
         <Input
           key="email"
-          value={this.state.email}
+          value={email}
           onChange={this.setEmail}
           required
           placeholder="Email"
@@ -77,21 +85,21 @@ export default class ForgotPassword extends PureComponent {
         />
 
         <p>
-          Enter your email address and we will send
-          you a link to reset your password.
+          {`Enter your email address and we will send
+          you a link to reset your password.`}
         </p>
 
-        <Error error={this.state.error} />
+        <Error error={error} />
 
         <div>
           <Button
             className={styles.submitBtn}
             action="submit"
             primary
-            isLoading={this.state.isLoading}
+            isLoading={isLoading}
             state={states.purple}
           >
-            Submit
+            {'Submit'}
           </Button>
         </div>
       </Form>,
@@ -99,6 +107,8 @@ export default class ForgotPassword extends PureComponent {
   }
 
   render() {
+    const { emailSent } = this.state;
+
     return (
       <Layout state={states.purple}>
         <Layout.HeaderContent state={states.purple}>
@@ -106,7 +116,7 @@ export default class ForgotPassword extends PureComponent {
             <Wrap>
 
               {
-                this.state.emailSent
+                emailSent
                   ? ForgotPassword.emailSent()
                   : this.form()
               }
