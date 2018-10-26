@@ -14,16 +14,13 @@ const formatError = (err) => {
 
     if (err._status === 400) {
       if (err.data && err.data.errors) {
-        let errorText = '';
-
-        err.data.errors.forEach((e) => {
-          Object.values(e)
-            .forEach((errorValue) => {
-              errorText += `${errorValue}\n`;
-            });
+        return err.data.errors.map((e) => {
+          return Object.values(e).map((errorValue) => {
+            return (
+              <div>{errorValue}</div>
+            );
+          });
         });
-
-        return errorText;
       }
       return 'Validation Error';
     }

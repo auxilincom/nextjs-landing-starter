@@ -11,6 +11,8 @@ export const sizes = {
   medium: 'medium',
 };
 
+/* eslint-disable */
+
 const Button = ({
   className,
   isLoading,
@@ -18,10 +20,11 @@ const Button = ({
   state,
   size,
   children,
+  type,
 }) => {
   return (
     <button
-      type="button"
+      type={type}
       action={action}
       className={classnames(styles.button, styles[state], styles[size], className, {
         [styles.loading]: isLoading,
@@ -40,6 +43,7 @@ Button.propTypes = {
   children: PropTypes.node,
   state: PropTypes.string,
   size: PropTypes.string,
+  type: PropTypes.oneOf(['button', 'submit', 'reset'])
 };
 
 Button.defaultProps = {
@@ -49,6 +53,7 @@ Button.defaultProps = {
   children: null,
   state: states.purple,
   size: sizes.medium,
+  type: 'button',
 };
 
 export default Button;

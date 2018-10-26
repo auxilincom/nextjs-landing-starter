@@ -29,7 +29,7 @@ class Header extends Component {
       <nav className={styles.nav}>
         <div className={styles.logo}>
           <Link prefetch href="/">
-            <a href="/"><Logo /></a>
+            <a href="/"><Logo width={100} /></a>
           </Link>
         </div>
 

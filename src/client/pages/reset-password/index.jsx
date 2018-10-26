@@ -103,6 +103,7 @@ export default class ResetPassword extends PureComponent {
             <Button
               className={styles.signin}
               action="submit"
+              type="submit"
               state={states.purple}
               isLoading={isLoading}
             >
