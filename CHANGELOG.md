@@ -1,3 +1,7 @@
+## v0.2.1 (2018-10-28)
+
+- Fix stylelint errors
+
 ## v0.2.0 (2018-10-26)
 
 - Fix Button component
