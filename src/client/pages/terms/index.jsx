@@ -9,14 +9,14 @@ export default class Signin extends PureComponent {
   render(props) {
     return (
       <PrivacyLayout>
-        <h1>Ship Subsription Terms of Service</h1>
+        <h1>Auxilin Subsription Terms of Service</h1>
 
         <p>Last modified: May, 04, 2018</p>
 
         <p>
-          {`This Ship Subscription Terms of Service ("Agreement") is
-          entered into by and between the Ship entity set forth below
-          ("Ship") and the entity or person (other than a legal entity
+          {`This Auxilin Subscription Terms of Service ("Agreement") is
+          entered into by and between the Auxilin entity set forth below
+          ("Auxilin") and the entity or person (other than a legal entity
           or individual registered and/or residing in Belarus) placing an order
           for or accessing any Services ("Customer" or "you").
           If you are accessing or using the Services on behalf of your company,
@@ -27,8 +27,8 @@ export default class Signin extends PureComponent {
 
         <p>
           {`This Agreement permits Customer to purchase subscriptions to online
-          software-as-a-service products and other services from Ship pursuant
-          to any Ship ordering documents, online registration, order descriptions
+          software-as-a-service products and other services from Auxilin pursuant
+          to any Auxilin ordering documents, online registration, order descriptions
           or order confirmations referencing this Agreement ("Order Form(s)")
           and sets forth the basic terms and conditions under which those products
           and services will be delivered. This Agreement will govern Customer's
@@ -45,7 +45,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          {`As used in this Agreement, "Ship" means AUXILIN LLC, a
+          {`As used in this Agreement, "Auxilin" means AUXILIN LLC, a
           company incorporated and registered in Belarus with registration
           number 191343485 whose registered office is at 11-4 Kulman Street,
           Minsk, 220100, Belarus.`}
@@ -54,17 +54,17 @@ export default class Signin extends PureComponent {
         <h2>Modifications to this Agreement</h2>
 
         <p>
-          {`From time to time, Ship may modify this Agreement. Unless otherwise
-          specified by Ship, changes become effective for Customer upon renewal
+          {`From time to time, Auxilin may modify this Agreement. Unless otherwise
+          specified by Auxilin, changes become effective for Customer upon renewal
           of Customer's current Subscription Term (as defined below) or entry
-          into a new Order Form. Ship will use reasonable efforts to notify
+          into a new Order Form. Auxilin will use reasonable efforts to notify
           Customer of the changes through communications via Customer's account,
-          email, website https://www.ship-demo.auxilin.com or other means.
+          email, website https://demo.auxilin.com or other means.
           Customer may be required to click to accept or otherwise agree to the
           modified Agreement before renewing a Subscription Term or entering into
           a new Order Form, and in any event continued use of the Services after
           the updated version of this Agreement goes into effect will constitute
-          Customer's acceptance of such updated version. If Ship specifies
+          Customer's acceptance of such updated version. If Auxilin specifies
           that changes to the Agreement will take effect prior to Customer's
           next renewal or order (such as for legal compliance or product change
           reasons) and Customer objects to such changes, Customer may terminate
@@ -90,7 +90,7 @@ export default class Signin extends PureComponent {
 
         <p>
           {`"Contractor" means an independent contractor or consultant
-          who is not a competitor of Ship.`}
+          who is not a competitor of Auxilin.`}
         </p>
 
         <p>
@@ -109,9 +109,9 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          {`"Dashboard" means Ship's user interface for accessing
+          {`"Dashboard" means Auxilin's user interface for accessing
           and administering the Services that Customer may access via the web
-          or the Ship Apps.`}
+          or the Auxilin Apps.`}
         </p>
 
         <p>
@@ -121,18 +121,18 @@ export default class Signin extends PureComponent {
 
         <p>
           {`"Feedback" means comments, questions, suggestions or other
-          feedback relating to any Ship product or service.`}
+          feedback relating to any Auxilin product or service.`}
         </p>
 
         <p>
-          {`"Ship App" means any mobile application or desktop client
+          {`"Auxilin App" means any mobile application or desktop client
           software included in the applicable Service that is made available
-          by Ship.`}
+          by Auxilin.`}
         </p>
 
         <p>
-          {`"Ship Code" means certain JavaScript code, software
-          development kits (SDKs) or other code provided by Ship for deployment
+          {`"Auxilin Code" means certain JavaScript code, software
+          development kits (SDKs) or other code provided by Auxilin for deployment
           on Customer Properties.`}
         </p>
 
@@ -166,44 +166,44 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          {`"Services" means Ship's proprietary software-as-a-service
-          solution(s), including the Dashboard, Ship application programming
-          interfaces (APIs), Ship Code and Ship Apps, as described in the
+          {`"Services" means Auxilin's proprietary software-as-a-service
+          solution(s), including the Dashboard, Auxilin application programming
+          interfaces (APIs), Auxilin Code and Auxilin Apps, as described in the
           applicable Order Form.`}
         </p>
 
         <p>
           {`"Taxes" means any value-added, withholding, or similar taxes
           or levies, whether domestic or foreign, other than taxes based on the
-          income of Ship.`}
+          income of Auxilin.`}
         </p>
 
         <p>
           {`"Third-Party Platform" means any software, software-as-a-service,
-          data sources or other products or services not provided by Ship that
+          data sources or other products or services not provided by Auxilin that
           are integrated with the Services as described in the Documentation.`}
         </p>
 
-        <h2>2. SHIP SERVICES</h2>
+        <h2>2. AUXILIN SERVICES</h2>
 
         <p>
           <span className={styles.chapter}>2.1. Services Overview.</span>
-          {`Ship's Services are a suite of messaging software-as-a-service solutions
+          {`Auxilin's Services are a suite of messaging software-as-a-service solutions
           offered through a single platform. The Services are designed to enable
           Customer to manage communications between users and to provide a
           Dashboard for accessing and managing Customer Data regarding those People.
           Customer may import and export Customer Data between the Services and
           certain Third-Party Platforms through supported integrations. The Services
-          also include Ship Code deployed on Customer Properties to enable live
+          also include Auxilin Code deployed on Customer Properties to enable live
           chat and messaging functionality.`}
         </p>
 
         <p>
           <span className={styles.chapter}>2.2. Provision of Services.</span>
           {`Each Service is provided on a subscription basis for a set term designated
-          on the Order Form (each, a "Subscription Term"). Ship may also
+          on the Order Form (each, a "Subscription Term"). Auxilin may also
           offer Professional Services (as defined in Section 10) related to certain
-          Services. Customer will purchase and Ship will provide the specific
+          Services. Customer will purchase and Auxilin will provide the specific
           Services and related Professional Services (if any) as specified in the
           applicable Order Form.`}
         </p>
@@ -216,7 +216,7 @@ export default class Signin extends PureComponent {
           applicable Order Form (including without limitation the number of People
           tracked). Use of and access to the Services is permitted only by
           Permitted Users. If Customer is given API keys or passwords to access
-          the Services on Ship's systems, Customer will require that all
+          the Services on Auxilin's systems, Customer will require that all
           Permitted Users keep API keys, user ID and password information strictly
           confidential and not share such information with any unauthorized person.
           User IDs are granted to individual, named persons and may not be shared.
@@ -229,36 +229,36 @@ export default class Signin extends PureComponent {
           as set forth below) of Customer, then Customer will immediately delete
           such user ID and otherwise terminate such Permitted User's access
           to the Service. The right to use the Services includes the right to
-          deploy Ship Code on Customer Properties in order to enable messaging,
+          deploy Auxilin Code on Customer Properties in order to enable messaging,
           chat and similar functionality and to collect Customer Data for use
           with the Services as further described below.`}
         </p>
 
         <p>
-          <span className={styles.chapter}>2.4. Ship Apps.</span>
-          {`To the extent Ship provides Ship Apps for use with the Services, subject
-          to all of the terms and conditions of this Agreement, Ship grants to
+          <span className={styles.chapter}>2.4. Auxilin Apps.</span>
+          {`To the extent Auxilin provides Auxilin Apps for use with the Services, subject
+          to all of the terms and conditions of this Agreement, Auxilin grants to
           Customer a limited, non-transferable, non-sublicensable, non-exclusive
           license during any applicable Subscription Term to use the object code
-          form of the Ship Apps internally, but only in connection with
+          form of the Auxilin Apps internally, but only in connection with
           Customer's use of the Service and otherwise in accordance with the
           Documentation and this Agreement.`}
         </p>
 
         <p>
-          <span className={styles.chapter}>2.5. Deployment of Ship Code.</span>
-          {`Subject to all of the terms and conditions of this Agreement, Ship
+          <span className={styles.chapter}>2.5. Deployment of Auxilin Code.</span>
+          {`Subject to all of the terms and conditions of this Agreement, Auxilin
           grants to Customer a limited, non-transferable, non-sublicensable,
           non-exclusive license during any applicable Subscription Term to copy
-          the Ship Code in the form provided by Ship on Customer Properties solely
+          the Auxilin Code in the form provided by Auxilin on Customer Properties solely
           to support Customer's use of the Service and otherwise in
           accordance with the Documentation and this Agreement. Customer must
-          implement Ship Code on the Customer Properties in order to enable features
-          of the Services. Customer will implement all Ship Code in strict
+          implement Auxilin Code on the Customer Properties in order to enable features
+          of the Services. Customer will implement all Auxilin Code in strict
           accordance with the Documentation and other instructions provided by
-          Ship. Customer acknowledges that any changes made to the Customer
-          Properties after initial implementation of Ship Code may cause the
-          Services to cease working or function improperly and that Ship will
+          Auxilin. Customer acknowledges that any changes made to the Customer
+          Properties after initial implementation of Auxilin Code may cause the
+          Services to cease working or function improperly and that Auxilin will
           have no responsibility for the impact of any such Customer changes.`}
         </p>
 
@@ -279,25 +279,25 @@ export default class Signin extends PureComponent {
           product or service provided to a third party; (c) reverse engineer,
           decompile, disassemble, or otherwise seek to obtain the source code or
           non-public APIs to the Services, except to the extent expressly permitted
-          by applicable Law (and then only upon advance notice to Ship); (d) copy
+          by applicable Law (and then only upon advance notice to Auxilin); (d) copy
           or modify the Services or any Documentation, or create any derivative
           work from any of the foregoing; (e) remove or obscure any proprietary
           or other notices contained in the Services (including without limitation
-          (i) the "We run on Ship" designation that may appear as part
+          (i) the "We run on Auxilin" designation that may appear as part
           of the deployment of the Services on Customer Properties and (ii) notices
           on any reports or data printed from the Services); or (f) publicly
           disseminate information regarding the performance of the Services.`}
         </p>
 
         <p>
-          <span className={styles.chapter}>2.8. Ship APIs.</span>
-          {`If Ship makes access to any APIs available as part of the Services,
-          Ship reserves the right to place limits on access to such APIs (e.g.,
-          limits on numbers of calls or requests). Further, Ship may monitor
+          <span className={styles.chapter}>2.8. Auxilin APIs.</span>
+          {`If Auxilin makes access to any APIs available as part of the Services,
+          Auxilin reserves the right to place limits on access to such APIs (e.g.,
+          limits on numbers of calls or requests). Further, Auxilin may monitor
           Customer's usage of such APIs and limit the number of calls or
-          requests Customer may make if Ship believes that Customer's usage
+          requests Customer may make if Auxilin believes that Customer's usage
           is in breach of this Agreement or may negatively affect the Services
-          (or otherwise impose liability on Ship).`}
+          (or otherwise impose liability on Auxilin).`}
         </p>
 
         <h2>3. CUSTOMER DATA</h2>
@@ -306,8 +306,8 @@ export default class Signin extends PureComponent {
           <span className={styles.chapter}>3.1. Rights in Customer Data.</span>
           {`As between the parties, Customer will retain all right, title and
           interest (including any and all intellectual property rights) in and
-          to the Customer Data as provided to Ship. Subject to the terms of this
-          Agreement, Customer hereby grants to Ship a non-exclusive, worldwide,
+          to the Customer Data as provided to Auxilin. Subject to the terms of this
+          Agreement, Customer hereby grants to Auxilin a non-exclusive, worldwide,
           royalty-free rightto use, copy, store, transmit, modify, create
           derivative works of and display the Customer Data solely to the extent
           necessary to provide the Services to Customer.`}
@@ -315,9 +315,9 @@ export default class Signin extends PureComponent {
 
         <p>
           <span className={styles.chapter}>3.2. Storage of Customer Data.</span>
-          {`Ship does not provide an archiving service. Ship agrees only that it
+          {`Auxilin does not provide an archiving service. Auxilin agrees only that it
           will not intentionally delete any Customer Data from any Service prior
-          to termination of Customer's applicable Subscription Term. Ship
+          to termination of Customer's applicable Subscription Term. Auxilin
           expressly disclaims all other obligations with respect to storage.`}
         </p>
 
@@ -328,9 +328,9 @@ export default class Signin extends PureComponent {
         <p>
           {`a) In General. Customer is solely responsible for the accuracy, content
           and legality of all Customer Data. Customer represents and warrants to
-          Ship that Customer has all necessary rights, consents and permissions
+          Auxilin that Customer has all necessary rights, consents and permissions
           to collect, share and use all Customer Data as contemplated in this
-          Agreement (including granting Ship the rights in Section 3.1 (Rights
+          Agreement (including granting Auxilin the rights in Section 3.1 (Rights
           in Customer Data)) and that no Customer Data will violate or infringe
           (i) any third party intellectual property, publicity, privacy or other
           rights, (ii) any Laws, or (iii) any terms of service, privacy policies
@@ -343,10 +343,10 @@ export default class Signin extends PureComponent {
         <p>
           {`b) No Sensitive Personal Information. Customer specifically agrees not
           to use the Services to collect, store, process or transmit any Sensitive
-          Personal Information. Customer acknowledges that Ship is not a
+          Personal Information. Customer acknowledges that Auxilin is not a
           Business Associate or subcontractor (as those terms are defined in HIPAA)
           or a payment card processor and that the Services are neither HIPAA nor
-          PCI DSS compliant. Ship will have no liability under this Agreement for
+          PCI DSS compliant. Auxilin will have no liability under this Agreement for
           Sensitive Personal Information, notwithstanding anything to the
           contrary herein.`}
         </p>
@@ -363,25 +363,25 @@ export default class Signin extends PureComponent {
 
         <p>
           {`d) Disclosures on Customer Properties. Customer acknowledges that the
-          Ship Code causes a unique cookie ID to be associated with each Person
-          who accesses the Customer Properties, which cookie ID enables Ship to
+          Auxilin Code causes a unique cookie ID to be associated with each Person
+          who accesses the Customer Properties, which cookie ID enables Auxilin to
           provide the Services. Customer will include on each Customer Property
           a link to its privacy policy that discloses Customer's use of third
           party tracking technology to collect data about People as described in
           this Agreement. Customer's privacy policy must disclose how, and
-          for what purposes, the data collected through Ship Code will be used
-          or shared with Ship as part of the Services. Customer must also provide
+          for what purposes, the data collected through Auxilin Code will be used
+          or shared with Auxilin as part of the Services. Customer must also provide
           People with clear and comprehensive information about the storing and
           accessing of cookies or other information on the Peoples' devices
           where such activity occurs in connection with the Services and as
-          required by applicable Laws. For clarity, as between Customer and Ship,
+          required by applicable Laws. For clarity, as between Customer and Auxilin,
           Customer will be solely responsible for obtaining the necessary clearances,
           consents and approvals from People under all applicable Laws.`}
         </p>
 
         <p>
           <span className={styles.chapter}>3.4. Indemnification by Customer.</span>
-          {`Customer will indemnify, defend and hold harmless Ship from and against
+          {`Customer will indemnify, defend and hold harmless Auxilin from and against
           any and all claims, costs, damages, losses, liabilities and expenses
           (including reasonable attorneys' fees and costs) arising out of or
           in connection with any claim arising from or relating to any Customer
@@ -391,26 +391,26 @@ export default class Signin extends PureComponent {
           notice in sufficient time for Customer to respond without prejudice);
           (ii) the exclusive right to control and direct the investigation,
           defense, or settlement of such claim; and (iii) all necessary
-          cooperation of Ship at Customer's expense. Notwithstanding the
-          foregoing sentence, (a) Ship may participate in the defense of any claim
+          cooperation of Auxilin at Customer's expense. Notwithstanding the
+          foregoing sentence, (a) Auxilin may participate in the defense of any claim
           by counsel of its own choosing, at its cost and expense and (b) Customer
-          will not settle any claim without Ship's prior written consent,
-          unless the settlement fully and unconditionally releases Ship and does
-          not require Ship to pay any amount, take any action, or admit any liability.`}
+          will not settle any claim without Auxilin's prior written consent,
+          unless the settlement fully and unconditionally releases Auxilin and does
+          not require Auxilin to pay any amount, take any action, or admit any liability.`}
         </p>
 
         <p>
           <span className={styles.chapter}>3.5. Aggregated Anonymous Data.</span>
           {`Not with standing anything to the contrary herein, Customer agrees that
-          Ship may obtain and aggregate technical and other data about Customer's
+          Auxilin may obtain and aggregate technical and other data about Customer's
           use of the Services that is non-personally identifiable with respect to
-          Customer ("Aggregated Anonymous Data"), and Ship may use the
+          Customer ("Aggregated Anonymous Data"), and Auxilin may use the
           Aggregated Anonymous Data to analyze, improve, support and operate the
           Services and otherwise for any business purpose during and after the
           term of this Agreement, including without limitation to generate industry
           benchmark or best practice guidance, recommendations or similar reports
-          for distribution to and consumption by Customer and other Ship customers.
-          For clarity, this Section 3.5 does not give Ship the right to identify
+          for distribution to and consumption by Customer and other Auxilin customers.
+          For clarity, this Section 3.5 does not give Auxilin the right to identify
           Customer as the source of any Aggregated Anonymous Data.`}
         </p>
 
@@ -418,11 +418,11 @@ export default class Signin extends PureComponent {
 
         <p>
           <span className={styles.chapter}>4.1.</span>
-          {`Ship agrees to use commercially reasonable technical and organizational
+          {`Auxilin agrees to use commercially reasonable technical and organizational
           measures designed to prevent unauthorized access, use, alteration or
-          disclosure of any Service or Customer Data. However, Ship will have no
+          disclosure of any Service or Customer Data. However, Auxilin will have no
           responsibility for errors in transmission, unauthorized third-party
-          access or other causes beyond Ship's control.`}
+          access or other causes beyond Auxilin's control.`}
         </p>
 
         <h2>5. THIRD-PARTY PLATFORMS</h2>
@@ -434,15 +434,15 @@ export default class Signin extends PureComponent {
           Customer may be required to input credentials in order for the Services
           to access and receive relevant information from such Third-Party
           Platforms. By enabling use of the Services with any Third-Party Platform,
-          Customer authorizes Ship to access Customer's accounts with such
+          Customer authorizes Auxilin to access Customer's accounts with such
           Third-Party Platform for the purposes described in this Agreement.
           Customer is solely responsible for complying with any relevant terms
           and conditions of the Third-Party Platforms and maintaining appropriate
           accounts in good standing with the providers of the Third-Party Platforms.
-          Customer acknowledges and agrees that Ship has no responsibility or
+          Customer acknowledges and agrees that Auxilin has no responsibility or
           liability for any Third-Party Platform or any Customer Data exported
-          to a Third-Party Platform. Ship does not guarantee that the Services
-          will maintain integrations with any Third-Party Platform and Ship may
+          to a Third-Party Platform. Auxilin does not guarantee that the Services
+          will maintain integrations with any Third-Party Platform and Auxilin may
           disable integrations of the Services with any Third-Party Platform at
           any time with or without notice to Customer. For clarity, this Agreement
           governs Customer's use of and access to the Services, even if
@@ -453,29 +453,29 @@ export default class Signin extends PureComponent {
 
         <p>
           <span className={styles.chapter}>6.1.</span>
-          {`Ship Technology. This is a subscription agreement for access to and use
+          {`Auxilin Technology. This is a subscription agreement for access to and use
           of the Services. Customer acknowledges that it is obtaining only a
           limited right to the Services and that irrespective of any use of the
           words "purchase", "sale" or like terms in this
           Agreement no ownership rights are being conveyed to Customer under
-          this Agreement. Customer agrees that Ship or its suppliers retain all
+          this Agreement. Customer agrees that Auxilin or its suppliers retain all
           right, title and interest (including all patent, copyright, trademark,
           trade secret and other intellectual property rights) in and to the
           Services and all Documentation, professional services deliverables and
           any and all related and underlying technology and documentation and
           any derivative works, modifications or improvements of any of the
           foregoing, including as may incorporate Feedback (collectively,
-          "Ship Technology"). Except as expressly set forth in this
-          Agreement, no rights in any Ship Technology are granted to Customer.
+          "Auxilin Technology"). Except as expressly set forth in this
+          Agreement, no rights in any Auxilin Technology are granted to Customer.
           Further, Customer acknowledges that the Services are offered as an
           on-line, hosted solution, and that Customer has no right to obtain a
-          copy of any of the Services, except for Ship Code and the Ship Apps in
-          the format provided by Ship.`}
+          copy of any of the Services, except for Auxilin Code and the Auxilin Apps in
+          the format provided by Auxilin.`}
         </p>
 
         <p>
           <span className={styles.chapter}>6.2. Feedback.</span>
-          {`Customer, from time to time, may submit Feedback to Ship. Ship may
+          {`Customer, from time to time, may submit Feedback to Auxilin. Auxilin may
           freely use or exploit Feedback in connection with any of its products
           or services.`}
         </p>
@@ -506,7 +506,7 @@ export default class Signin extends PureComponent {
           are excluded from any fees set forth in the applicable Order Form. If
           Customer is required by Law to withhold any Taxes from Customer's
           payment, the fees payable by Customer will be increased as necessary so
-          that after making any required withholdings, Ship receives and retains
+          that after making any required withholdings, Auxilin receives and retains
           (free from any liability for payment of Taxes) an amount equal to the
           amount it would have received had no such withholdings been made. Any
           late payments will be subject to a service charge equal to 1.5% per
@@ -524,7 +524,7 @@ export default class Signin extends PureComponent {
           <li>
             <span className={styles.listTitle}>Recurring Billing Authorization.</span>
             {`By providing Credit Card information and agreeing to purchase any
-            Services, Customer hereby authorizes Ship (or its designee) to
+            Services, Customer hereby authorizes Auxilin (or its designee) to
             automatically charge Customer's Credit Card on the same date of
             each calendar month (or the closest prior date, if there are fewer
             days in a particular month) during the Subscription Term for all
@@ -547,7 +547,7 @@ export default class Signin extends PureComponent {
             <span className={styles.listTitle}>Invalid Payment.</span>
             {`If a payment is not successfully settled due to expiration of a Credit
             Card, insufficient funds, or otherwise, Customer remains responsible
-            for any amounts not remitted to Ship and Ship may, in its sole
+            for any amounts not remitted to Auxilin and Auxilin may, in its sole
             discretion, either (i) invoice Customer directly for the deficient
             amount, (ii) continue billing the Credit Card once it has been
             updated by Customer (if applicable) or (iii) terminate this Agreement.`}
@@ -567,10 +567,10 @@ export default class Signin extends PureComponent {
               {'Termination of Recurring Billing.'}
             </span>
             {`In addition to any termination rights set forth in this Agreement,
-            Customer may terminate the Subscription Term by sending Ship notice
-            of non-renewal to support@Ship.com in accordance with Section 7.1
+            Customer may terminate the Subscription Term by sending Auxilin notice
+            of non-renewal to support@Auxilin.com in accordance with Section 7.1
             (Subscription Term and Renewals) or, if Customer's Subscription
-            Term is on a monthly basis (or if otherwise permitted by Ship), by
+            Term is on a monthly basis (or if otherwise permitted by Auxilin), by
             terminating via the "Billing" page, with termination
             effective at the end of the current Subscription Term.As set forth
             in Section 2.9 (Trial Subscriptions), if Customer does not enter
@@ -584,10 +584,10 @@ export default class Signin extends PureComponent {
             <span className={styles.listTitle}>
               {'Payment of Outstanding Fees.'}
             </span>
-            {`Upon any termination or expiration of the Subscription Term, Ship
+            {`Upon any termination or expiration of the Subscription Term, Auxilin
             will charge Customer's Credit Card (or invoice Customer directly)
             for any outstanding fees for Customer's use of the Services
-            during the Subscription Term, after which Ship will not charge
+            during the Subscription Term, after which Auxilin will not charge
             Customer's Credit Card for any additional fees.`}
           </li>
         </ol>
@@ -596,10 +596,10 @@ export default class Signin extends PureComponent {
           <span className={styles.chapter}>7.4. Suspension of Service.</span>
           {`If Customer's account is thirty (30) days or more overdue, in
           addition to any of its other rights or remedies (including but not
-          limited to any termination rights set forth herein), Ship reserves the
+          limited to any termination rights set forth herein), Auxilin reserves the
           right to suspend Customer's access to the applicable Service
           (and any related services) without liability to Customer until such
-          amounts are paid in full. Ship also reserves the right to suspend
+          amounts are paid in full. Auxilin also reserves the right to suspend
           Customer's access to the Services.`}
         </p>
 
@@ -627,15 +627,15 @@ export default class Signin extends PureComponent {
           <span className={styles.chapter}>8.3. Effect of Termination.</span>
           {`Upon any expiration or termination of this Agreement, Customer will
           immediately cease any and all use of and access to all Services
-          (including any and all related Ship Technology) and delete (or, at
-          Ship's request, return) any and all copies of the Documentation,
-          any Ship passwords or access codes and any other Ship Confidential
+          (including any and all related Auxilin Technology) and delete (or, at
+          Auxilin's request, return) any and all copies of the Documentation,
+          any Auxilin passwords or access codes and any other Auxilin Confidential
           Information in its possession. Provided this Agreement was not
           terminated for Customer's breach, Customer may retain and use
           internally copies of all reports exported from any Service prior to
           termination. Customer acknowledges that following termination it will
           have no further access to any Customer Data input into any Service,
-          and that Ship may delete any such data as may have been stored by Ship
+          and that Auxilin may delete any such data as may have been stored by Auxilin
           at any time. Except where an exclusive remedy is specified, the exercise
           of either party of any remedy under this Agreement, including termination,
           will be without prejudice to any other remedies it may have under this
@@ -657,12 +657,12 @@ export default class Signin extends PureComponent {
 
         <p>
           <span className={styles.chapter}>9.1. Limited Warranty.</span>
-          {`Ship warrants, for Customer's benefit only, that each Service will
+          {`Auxilin warrants, for Customer's benefit only, that each Service will
           operate in substantial conformity with the applicable Documentation.
-          Ship's sole liability (and Customer's sole and exclusive remedy)
+          Auxilin's sole liability (and Customer's sole and exclusive remedy)
           for any breach of this warranty will be, at no charge to Customer, for
-          Ship to use commercially reasonable efforts to correct the reported
-          non-conformity, or if Ship determines such remedy to be impracticable,
+          Auxilin to use commercially reasonable efforts to correct the reported
+          non-conformity, or if Auxilin determines such remedy to be impracticable,
           either party may terminate the applicable Subscription Term and Customer
           will receive as its sole remedy a refund of any fees Customer has
           pre-paid for use of such Service for the terminated portion of the
@@ -677,19 +677,19 @@ export default class Signin extends PureComponent {
         <p>
           <span className={styles.chapter}>9.2. Warranty Disclaimer</span>
           {`EXCEPT FOR THE LIMITED WARRANTY IN SECTION 9.1, ALL SERVICES AND
-          PROFESSIONAL SERVICES ARE PROVIDED "AS IS". NEITHER SHIP NOR
+          PROFESSIONAL SERVICES ARE PROVIDED "AS IS". NEITHER AUXILIN NOR
           ITS SUPPLIERS MAKES ANY OTHER WARRANTIES, EXPRESS OR IMPLIED, STATUTORY
           OR OTHERWISE, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
-          TITLE, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT. SHIP DOES
+          TITLE, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT. AUXILIN DOES
           NOT WARRANT THAT CUSTOMER'S USE OF THE SERVICES WILL BE
-          UNINTERRUPTED OR ERROR-FREE, NOR DOES SHIP WARRANT THAT IT WILL REVIEW
+          UNINTERRUPTED OR ERROR-FREE, NOR DOES AUXILIN WARRANT THAT IT WILL REVIEW
           THE CUSTOMER DATA FOR ACCURACY OR THAT IT WILL PRESERVE OR MAINTAIN
-          THE CUSTOMER DATA WITHOUT LOSS OR CORRUPTION. SHIP SHALL NOT BE LIABLE
+          THE CUSTOMER DATA WITHOUT LOSS OR CORRUPTION. AUXILIN SHALL NOT BE LIABLE
           FOR THE RESULTS OF ANY COMMUNICATIONS SENT OR ANY COMMUNICATIONS THAT
-          WERE FAILED TO BE SENT USING THE SERVICES. SHIP SHALL NOT BE LIABLE FOR
+          WERE FAILED TO BE SENT USING THE SERVICES. AUXILIN SHALL NOT BE LIABLE FOR
           DELAYS, INTERRUPTIONS, SERVICE FAILURES OR OTHER PROBLEMS INHERENT IN
           USE OF THE INTERNET AND ELECTRONIC COMMUNICATIONS, THIRD-PARTY PLATFORMS
-          OR OTHER SYSTEMS OUTSIDE THE REASONABLE CONTROL OF SHIP. CUSTOMER MAY
+          OR OTHER SYSTEMS OUTSIDE THE REASONABLE CONTROL OF AUXILIN. CUSTOMER MAY
           HAVE OTHER STATUTORY RIGHTS, BUT THE DURATION OF STATUTORILY REQUIRED
           WARRANTIES, IF ANY, SHALL BE LIMITED TO THE SHORTEST PERIOD PERMITTED
           BY LAW.`}
@@ -698,30 +698,30 @@ export default class Signin extends PureComponent {
         <h2>10. SUPPORT</h2>
 
         <p>
-          {`During the Subscription Term of each Service, Ship will provide end
+          {`During the Subscription Term of each Service, Auxilin will provide end
           user support.`}
         </p>
 
         <h2>11. PROFESSIONAL SERVICES</h2>
 
         <p>
-          {`Ship will provide the professional consulting services ("Professional
+          {`Auxilin will provide the professional consulting services ("Professional
           Services") purchased in the applicable Order Form. The scope of
           Professional Services will be as set forth in a Statement of Work
           referencing this Agreement and executed by both parties describing the
           work to be performed, fees and any applicable milestones, dependencies
           and other technical specifications or related information ("SOW").
           Unless Professional Services are provided on a fixed-fee basis, Customer
-          will pay Ship at the per-hour rates set forth in the Order Form (or,
-          if not specified, at Ship's then-standard rates) for any excess
-          services. Customer will reimburse Ship for reasonable travel and lodging
+          will pay Auxilin at the per-hour rates set forth in the Order Form (or,
+          if not specified, at Auxilin's then-standard rates) for any excess
+          services. Customer will reimburse Auxilin for reasonable travel and lodging
           expenses as incurred. Customer may use anything delivered as part of
           the Professional Services in support of authorized use of the Services
           and subject to the terms regarding Customer's rights to use the
-          Service set forth in Section 2 (Ship Services) and the applicable SOW,
-          but Ship will retain all right, title and interest in and to any such
+          Service set forth in Section 2 (Auxilin Services) and the applicable SOW,
+          but Auxilin will retain all right, title and interest in and to any such
           work product, code or deliverables and any derivative, enhancement or
-          modification thereof created by Ship (or its agents).`}
+          modification thereof created by Auxilin (or its agents).`}
         </p>
 
         <h2>12. LIMITATION OF REMEDIES AND DAMAGES</h2>
@@ -740,9 +740,9 @@ export default class Signin extends PureComponent {
 
         <p>
           <span className={styles.chapter}>12.2. Liability Cap.</span>
-          {`SHIP'S AND ITS SUPPLIERS' ENTIRE LIABILITY TO CUSTOMER
+          {`AUXILIN'S AND ITS SUPPLIERS' ENTIRE LIABILITY TO CUSTOMER
           ARISING OUT OF OR RELATED TO THIS AGREEMENT SHALL NOT EXCEED THE
-          AMOUNT ACTUALLY PAID BY CUSTOMER TO SHIP DURING THE PRIOR TWELVE (12)
+          AMOUNT ACTUALLY PAID BY CUSTOMER TO AUXILIN DURING THE PRIOR TWELVE (12)
           MONTHS UNDER THIS AGREEMENT.`}
         </p>
 
@@ -770,30 +770,30 @@ export default class Signin extends PureComponent {
         <h2>13. INDEMNIFICATION</h2>
 
         <p className={styles.alert}>
-          {`Ship will defend Customer from and against any claim by a third party
+          {`Auxilin will defend Customer from and against any claim by a third party
           alleging that a Service when used as authorized under this Agreement
           infringes a U.S. patent, U.S. copyright, or U.S. trademark and will
           indemnify and hold harmless Customer from and against any damages and
-          costs finally awarded against Customer or agreed in settlement by Ship
+          costs finally awarded against Customer or agreed in settlement by Auxilin
           (including reasonable attorneys' fees) resulting from such claim,
-          provided that Ship will have received from Customer: (i) prompt written
+          provided that Auxilin will have received from Customer: (i) prompt written
           notice of such claim (but in any event notice in sufficient time for
-          Ship to respond without prejudice); (ii) the exclusive right to control
+          Auxilin to respond without prejudice); (ii) the exclusive right to control
           and direct the investigation, defense and settlement (if applicable)
           of such claim; and (iii) all reasonable necessary cooperation of
-          Customer. If Customer's use of a Service is (or in Ship's
-          opinion is likely to be) enjoined, if required by settlement or if Ship
+          Customer. If Customer's use of a Service is (or in Auxilin's
+          opinion is likely to be) enjoined, if required by settlement or if Auxilin
           determines such actions are reasonably necessary to avoid material
-          liability, Ship may, in its sole discretion: (a) substitute substantially
+          liability, Auxilin may, in its sole discretion: (a) substitute substantially
           functionally similar products or services; (b) procure for Customer the
           right to continue using such Service; or if (a) and (b) are not
           commercially reasonable, (c) terminate this Agreement and refund to
           Customer the fees paid by Customer for the portion of the Subscription
-          Term that was paid by Customer but not rendered by Ship. The foregoing
-          indemnification obligation of Ship will not apply: (1) if such Service
-          is modified by any party other than Ship, but solely to the extent the
+          Term that was paid by Customer but not rendered by Auxilin. The foregoing
+          indemnification obligation of Auxilin will not apply: (1) if such Service
+          is modified by any party other than Auxilin, but solely to the extent the
           alleged infringement is caused by such modification; (2) if such Service
-          is combined with products or processes not provided by Ship, but solely
+          is combined with products or processes not provided by Auxilin, but solely
           to the extent the alleged infringement is caused by such combination;
           (3)to any unauthorized use of such Service; (4) to any action arising
           as a result of Customer Data or any third-party deliverables or components
@@ -801,8 +801,8 @@ export default class Signin extends PureComponent {
           is not caused by the particular technology or implementation of the
           Service but instead by features common to any similar product or
           service; or (6) if Customer settles or makes any admissions with respect
-          to a claim without Ship's prior written consent. THIS SECTION 14
-          SETS FORTH Ship's AND ITS SUPPLIERS' SOLE LIABILITY AND
+          to a claim without Auxilin's prior written consent. THIS SECTION 14
+          SETS FORTH Auxilin's AND ITS SUPPLIERS' SOLE LIABILITY AND
           CUSTOMER'S SOLE AND EXCLUSIVE REMEDY WITH RESPECT TO ANY CLAIM OF
           INTELLECTUAL PROPERTY INFRINGEMENT.`}
         </p>
@@ -818,16 +818,16 @@ export default class Signin extends PureComponent {
           as confidential at the time of disclosure or should be reasonably known
           by the Receiving Party to be confidential or proprietary due to the
           nature of the information disclosed and the circumstances surrounding
-          the disclosure. Any Ship Technology, performance information relating
+          the disclosure. Any Auxilin Technology, performance information relating
           to any Service, and the terms and conditions of this Agreement will be
-          deemed Confidential Information of Ship without any marking or further
+          deemed Confidential Information of Auxilin without any marking or further
           designation. Except as expressly authorized herein, the Receiving Party
           will (1) hold in confidence and not disclose any Confidential Information
           to third parties and (2) not use Confidential Information for any purpose
           other than fulfilling its obligations and exercising its rights under
           this Agreement. The Receiving Party may disclose Confidential Information
           to its employees, agents, contractors and other representatives having
-          a legitimate need to know (including, for Ship, the subcontractors
+          a legitimate need to know (including, for Auxilin, the subcontractors
           referenced in Section 16.8 (Subcontractors)), provided that such
           representatives are bound to confidentiality obligations no less
           protective of the Disclosing Party than this Section 14 and that the
@@ -889,7 +889,7 @@ export default class Signin extends PureComponent {
           party shall provide written notice to the other party in a document
           specifically entitled "Initial Notice of Dispute" specifically
           setting forth the precise nature of the dispute ("Initial Notice
-          of Dispute"). If an Initial Notice of Dispute is being sent to Ship
+          of Dispute"). If an Initial Notice of Dispute is being sent to Auxilin
           it must sent via mail to: Auxilin LLC, Minsk 220100 Belarus.`}
         </p>
 
@@ -979,7 +979,7 @@ export default class Signin extends PureComponent {
         <p>
           {'e)'}
           <span className={styles.listTitle}>Injunctive Relief.</span>
-          {`Notwithstanding the above provisions, Ship may apply for injunctive
+          {`Notwithstanding the above provisions, Auxilin may apply for injunctive
           remedies (or an equivalent type of urgent legal relief) in any jurisdiction.`}
         </p>
 
@@ -1018,8 +1018,8 @@ export default class Signin extends PureComponent {
           written and oral agreements and communications relating to the subject
           matter of this Agreement. Customer acknowledges that the Services are
           on-line, subscription-based products, and that in order to provide
-          improved customer experience Ship may make changes to the Services,
-          and Ship will update the applicable Documentation accordingly.`}
+          improved customer experience Auxilin may make changes to the Services,
+          and Auxilin will update the applicable Documentation accordingly.`}
         </p>
 
         <p>
@@ -1036,9 +1036,9 @@ export default class Signin extends PureComponent {
 
         <p>
           <span className={styles.chapter}>15.8. Subcontractors.</span>
-          {`Ship may use the services of subcontractors and permit them to exercise
-          the rights granted to Ship in order to provide the Services under this
-          Agreement, provided that Ship remains responsible for (i) compliance
+          {`Auxilin may use the services of subcontractors and permit them to exercise
+          the rights granted to Auxilin in order to provide the Services under this
+          Agreement, provided that Auxilin remains responsible for (i) compliance
           of any such subcontractor with the terms of this Agreement and (ii) for
           the overall performance of the Services as required under this Agreement.`}
         </p>

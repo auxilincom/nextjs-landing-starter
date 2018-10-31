@@ -22,9 +22,9 @@ Next.JS Landing Starter — is a [Next.JS](https://github.com/zeit/next.js) star
 
 ## Getting Started
 
-Just fork or clone and push repository into your own repo. Rename [SHIP_README.md](SHIP_README.md) into README.md. To keep your repository clean remove `CHANGELOG.md`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `LICENSE` and `.drone.yml`.
+Just fork or clone and push repository into your own repo. Rename [AUXILIN_README.md](AUXILIN_README.md) into README.md. To keep your repository clean remove `CHANGELOG.md`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `LICENSE` and `.drone.yml`.
 
-You can read develoment details [here](SHIP_README.md) — that will become a primary readme of your landing site.
+You can read develoment details [here](AUXILIN_README.md) — that will become a primary readme of your landing site.
 
 ## Start
 
@@ -37,7 +37,7 @@ Also, you need REST api server on several pages (sigun, signin). If you are usin
 
 ## Demo
 
-Demo is available as part of [Ship](https://github.com/auxilincom/ship) [here](http://ship-demo.auxilincom.com/).
+Demo is available as part of [AUXILIN](https://github.com/auxilincom/auxilin) [here](https://demo.auxilincom.com/).
 
 ## Why Next.JS?
 

@@ -5,7 +5,7 @@ services:
       context: "./"
       dockerfile: Dockerfile.dev
     networks:
-      - ship
+      - auxilin
     environment:
       NODE_ENV: development
     volumes:
@@ -14,5 +14,5 @@ services:
       - "3000:3000"
 
 networks:
-  ship:
-    name: ship_network
+  auxilin:
+    name: auxilin_network

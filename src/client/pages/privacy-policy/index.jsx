@@ -9,25 +9,25 @@ export default class Signin extends PureComponent {
   render(props) {
     return (
       <PrivacyLayout>
-        <h1>Ship Privacy Policy</h1>
+        <h1>Auxilin Privacy Policy</h1>
 
         <p>Last modified: May, 04, 2018</p>
 
         <p>
-          {`If you are a visitor to an Ship Website or a customer of an Ship Service,
+          {`If you are a visitor to an Auxilin Website or a customer of an Auxilin Service,
           then except as expressly set forth below, this Privacy Policy applies to
           your use of such Website or Service.`}
         </p>
 
         <p>
-          {`As used in this Privacy Policy, "Ship", "Us", "Our" and "We" refers
+          {`As used in this Privacy Policy, "Auxilin", "Us", "Our" and "We" refers
           to AUXILIN LLC, a company incorporated and registered in Belarus with
           registration number 191343485 whose registered office is at Kulman
-          Street 11-4, zip code 220100, Minsk, Belarus. The "Websites" means Ship's
-          websites (including without limitation ship-demo.auxilin.com, and any
+          Street 11-4, zip code 220100, Minsk, Belarus. The "Websites" means Auxilin's
+          websites (including without limitation https://demo.auxilin.com, and any
           successor URLS, mobile or localized versions and related domains and
           subdomains), which you use and/or visit, and the "Services"
-          means Ship's products, applications and services, which you
+          means Auxilin's products, applications and services, which you
           download, install or use, in each case in whatever format they may be
           offered now or in the future. The Websites and Services may collectively
           be referred to herein as the "Offerings".`}
@@ -35,12 +35,12 @@ export default class Signin extends PureComponent {
 
         <p>
           {`If you are a visitor to or user of a third-party website or service
-          ("Third-Party Property") that utilizes any Ship products,
+          ("Third-Party Property") that utilizes any Auxilin products,
           then any personal data you submit to such Third-Party Property
-          (including via the Ship product) is collected under the privacy
+          (including via the Auxilin product) is collected under the privacy
           policy of the owner of such Third-Party Property, and you should
           contact such owner with any related requests or inquiries you may have.
-          If you have any inquiries specifically directed towards Ship, please
+          If you have any inquiries specifically directed towards Auxilin, please
           email Us at andrew@auxilin.com.`}
         </p>
 
@@ -48,9 +48,9 @@ export default class Signin extends PureComponent {
           {`You can find the latest updated version of this Privacy Policy at any
           time at Our website`}
           <Link href="/privacy-policy">
-            <a href="/privacy-policy">https://ship-demo.auxilin.com/privacy-policy.</a>
+            <a href="/privacy-policy">https://demo.auxilin.com/privacy-policy.</a>
           </Link>
-          {`Please note, that the Privacy Policy is an inseparable part of Ship
+          {`Please note, that the Privacy Policy is an inseparable part of Auxilin
           Subscription Terms of Service, which you enter upon download,
           installation and/or use of Our Offerings.`}
         </p>
@@ -171,7 +171,7 @@ export default class Signin extends PureComponent {
           <li>
             {`To control unauthorized use or abuse of the Offerings and Our other
             products and services, or otherwise detect, investigate or prevent
-            activities that may violate Our policies (including Ship Subscription
+            activities that may violate Our policies (including Auxilin Subscription
             Terms of Service) or be illegal;`}
           </li>
 
@@ -350,7 +350,7 @@ export default class Signin extends PureComponent {
           or to delete such information at your request if it is not otherwise
           required to be retained by law or for legitimate business purposes.
           You may access, review, correct, update, change or delete your
-          information at any time. To do so, please contact Us at support@ship.com
+          information at any time. To do so, please contact Us at support@auxilin.com
           with your name and the information requested to be accessed, corrected
           or removed, or if you are using the Service, sign in to your account,
           go to your profile, and make the desired changes. We may decline to
@@ -365,7 +365,7 @@ export default class Signin extends PureComponent {
 
         <p>
           {`Please note that if you cease using the Service or We terminate your
-          access to the Service in accordance with Ship Subscription Terms of
+          access to the Service in accordance with Auxilin Subscription Terms of
           Service, you may no longer have the ability to access or update your
           information.`}
         </p>
@@ -384,7 +384,7 @@ export default class Signin extends PureComponent {
           make changes, We will post them and will indicate on this page the
           policy's new effective date. If We make material changes to this
           policy, We will notify you by email or through notice on the Offerings
-          or on the website https://www.ship-demo.theranest.com. If you continue
+          or on the website https://demo.auxilin.com. If you continue
           using the Offerings after such notification, this shall mean your
           acceptance of the Privacy Policy changes. IF YOU DO NOT AGREE WITH ANY
           CHANGES TO THIS PRIVACY POLICY, YOU MUST DISCONTINUE USING THE OFFERINGS.`}
@@ -394,7 +394,7 @@ export default class Signin extends PureComponent {
 
         <p>
           {`The Offerings are not intended for use by anyone under the age of 14,
-          nor does Ship knowingly collect or solicit personal information from
+          nor does Auxilin knowingly collect or solicit personal information from
           anyone under the age of 14. If you are under 14, you may not attempt
           to register for the Offerings or send any information about yourself
           to Us, including your name, address, telephone number, or email address.
@@ -417,7 +417,7 @@ export default class Signin extends PureComponent {
           direct marketing purposes, California's Shine the Light Law (CA Civil
           Code Section 1798.83) allows you to request certain information from
           us about such disclosures. To make a request under the Shine the Light
-          Law, please contact us at support@ship.com. Please note that under
+          Law, please contact us at support@auxilin.com. Please note that under
           California law, businesses are not required to respond to such requests
           more than once during any calendar year.`}
         </p>
@@ -431,7 +431,7 @@ export default class Signin extends PureComponent {
           Your Personal Information) above, or otherwise through the Offerings.
           If you have questions about how to remove your posts or if you would
           like additional assistance with deletion you can contact our support
-          team at support@ship.com. Although we offer deletion capability for
+          team at support@auxilin.com. Although we offer deletion capability for
           our Offerings, you should be aware that the removal of posts may not
           ensure complete or comprehensive removal of that content or information
           posted through the Offerings.`}
@@ -470,7 +470,7 @@ export default class Signin extends PureComponent {
 
         <p>
           {`If you have questions or need to contact Us about this Privacy Policy,
-          please contact via email at support@ship.com or mail at Kulman Street
+          please contact via email at support@auxilin.com or mail at Kulman Street
           11-4, zip code 220100, Minsk, Belarus (Attn: AUXILIN LLC).`}
         </p>
       </PrivacyLayout>

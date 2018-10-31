@@ -33,10 +33,9 @@ export default () => (
             <h1 className={styles.title}>The new standard in starters for landing websites</h1>
 
             <p className={styles.description}>
-              {`Ship is a tool which help you setup your new product in matter of
-              minutes. Ship is based on Stack. Stack is an number of open-source
-              components, resulted from years of hard work on a number of awesome
-              products.`}
+              {`Auxilin is a tool which help you setup your new product in matter of
+              minutes. Auxilin is based on stack of open-source components, resulted
+              from years of hard work on a number of awesome products.`}
             </p>
 
             <ButtonLink
