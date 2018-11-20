@@ -4,8 +4,8 @@ import classnames from 'classnames';
 
 import { states } from '~/constants';
 
-import HeaderContent from './components/header-content';
-import Content from './components/content';
+import Header from './components/header';
+import Section from './components/section';
 import Footer from './components/footer';
 
 import styles from './styles.pcss';
@@ -14,8 +14,7 @@ const Layout = ({ children, className, state }) => {
   return (
     <div className={classnames(styles.wrap, className)}>
       {children}
-
-      <Footer state={state} />
+      <Footer />
     </div>
   );
 };
@@ -31,7 +30,7 @@ Layout.defaultProps = {
   state: states.purple,
 };
 
-Layout.HeaderContent = HeaderContent;
-Layout.Content = Content;
+Layout.Header = Header;
+Layout.Section = Section;
 
 export default Layout;

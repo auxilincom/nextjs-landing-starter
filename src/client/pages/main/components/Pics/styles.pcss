@@ -1,0 +1,52 @@
+.pic {
+  height: auto;
+  width: 49%;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  img {
+    width: 100%;
+  }
+}
+
+.pics {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 65px 0;
+}
+
+.textWrap {
+  position: relative;
+  height: 0;
+  width: 100%;
+  top: calc(-50% - 2em);
+  text-align: center;
+}
+
+.text {
+  font-weight: 700;
+  color: white;
+  font-size: 1.5em;
+  line-height: 3em;
+  background: #040404a6;
+  display: block;
+
+  &.twoLines {
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pic {
+    width: 100%;
+  }
+
+  .pics {
+    padding-top: 0;
+  }
+}

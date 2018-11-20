@@ -1,6 +1,7 @@
 @import 'variables.pcss';
 
 .nav {
+  padding-top: 35px;
   width: 100%;
   margin-top: var(--distance-800);
   min-height: 50px;
@@ -22,7 +23,7 @@
 
       &.logo {
         svg {
-          width: 100px;
+          width: 180px;
           height: 62px;
         }
       }
@@ -33,12 +34,16 @@
         padding: 0;
 
         & > .link {
-          color: var(--white);
           list-style: none;
           font-size: var(--text-600);
           padding: 0 var(--distance-800);
           line-height: 50px;
-          transition: color 0.1s ease;
+          transition: border-bottom 0.25s ease;
+          cursor: pointer;
+
+          &:hover {
+            border-bottom: 5px solid #44bd31;
+          }
 
           .login {
             font-size: var(--text-600);
@@ -49,12 +54,11 @@
             }
 
             .text {
-              color: var(--white);
               flex-shrink: 0;
             }
 
             .arrow {
-              stroke: var(--white);
+              stroke: #777;
               transition: transform 0.5s ease;
               margin-left: var(--distance-400);
               transform: translateX(0);
@@ -75,4 +79,30 @@
   max-width: var(--max-container-width);
   padding: 0 var(--distance-700);
   margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    .menu {
+      & > .item {
+        .links {
+          & > .link {
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .logo {
+    width: 50px;
+
+    svg {
+      path {
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
 }

@@ -104,7 +104,7 @@ export default class ResetPassword extends PureComponent {
               className={styles.signin}
               action="submit"
               type="submit"
-              state={states.purple}
+              state={states.green}
               isLoading={isLoading}
             >
               {'Submit'}
@@ -118,13 +118,12 @@ export default class ResetPassword extends PureComponent {
   render(props) {
     return (
       <Layout state={states.purple}>
-        <Layout.HeaderContent state={states.purple}>
-          <Auth className={styles.panel}>
-            <Wrap className={styles.formWrap}>
-              {this.form()}
-            </Wrap>
-          </Auth>
-        </Layout.HeaderContent>
+        <Layout.Header state={states.purple} />
+        <Auth className={styles.panel}>
+          <Wrap className={styles.formWrap}>
+            {this.form()}
+          </Wrap>
+        </Auth>
       </Layout>
     );
   }
