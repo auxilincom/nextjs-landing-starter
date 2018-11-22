@@ -34,7 +34,7 @@ class VideoPage extends React.PureComponent {
   render() {
     const { isShowVideo, width, height } = this.state;
     return (
-      <section className={styles.page} style={{ backgroundImage: 'url(/static/video-preview.jpg)' }}>
+      <section className={styles.page}>
         <button type="button" className={styles.playButton} onClick={this.showVideo}>
           <Play />
         </button>

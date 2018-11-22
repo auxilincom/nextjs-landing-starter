@@ -1,7 +1,9 @@
+@import 'variables.pcss';
+
 .pic {
   height: auto;
   width: 49%;
-  margin-bottom: 10px;
+  margin-bottom: var(--distance-500);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -17,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 65px 0;
+  padding: var(--distance-1600) 0;
 }
 
 .textWrap {
@@ -29,7 +31,7 @@
 }
 
 .text {
-  font-weight: 700;
+  font-weight: var(--text-weight-700);
   color: white;
   font-size: 1.5em;
   line-height: 3em;

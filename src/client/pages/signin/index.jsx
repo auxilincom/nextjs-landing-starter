@@ -71,8 +71,8 @@ export default class Signin extends PureComponent {
     } = this.state;
 
     return (
-      <Layout state={states.blue}>
-        <Layout.Header state={states.blue} />
+      <Layout>
+        <Layout.Header />
         <Auth className={styles.panel}>
           <img className={styles.greeting} alt="Welcome Back" src="/static/password.jpg" />
           <Wrap>

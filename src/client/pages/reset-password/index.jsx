@@ -117,8 +117,8 @@ export default class ResetPassword extends PureComponent {
 
   render(props) {
     return (
-      <Layout state={states.purple}>
-        <Layout.Header state={states.purple} />
+      <Layout>
+        <Layout.Header />
         <Auth className={styles.panel}>
           <Wrap className={styles.formWrap}>
             {this.form()}

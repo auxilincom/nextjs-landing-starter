@@ -111,11 +111,10 @@ export default class ForgotPassword extends PureComponent {
     const { emailSent } = this.state;
 
     return (
-      <Layout state={states.purple}>
-        <Layout.Header state={states.purple} />
+      <Layout>
+        <Layout.Header />
         <Auth className={styles.panel}>
           <Wrap>
-
             {
               emailSent
                 ? ForgotPassword.emailSent()

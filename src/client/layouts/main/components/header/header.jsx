@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
+import { states } from '~/constants';
 
 import ButtonLink from '~/components/button-link';
 import Link from '~/components/link';
@@ -34,7 +35,7 @@ const Header = ({ state }) => (
               <ButtonLink
                 prefetch
                 href="/signin"
-                state={null}
+                state={state}
                 className={styles.login}
               >
                 <span className={styles.text}>Log In</span>
@@ -53,7 +54,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  state: null,
+  state: states.transparent,
 };
 
 export default Header;

@@ -99,8 +99,8 @@ export default class Signup extends PureComponent {
     );
 
     return (
-      <Layout state={states.green}>
-        <Layout.Header state={states.green} />
+      <Layout>
+        <Layout.Header />
         <Auth className={styles.panel}>
           {signupSuccess ? (
             <div className={styles.signupSuccess}>

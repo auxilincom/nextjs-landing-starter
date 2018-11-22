@@ -8,14 +8,13 @@ export default () => (
   <footer className={styles.footer}>
     <span className={styles.contactUs}>Contact us</span>
     <div className={styles.info}>
-      20196 Northbrook Square, 95014 Cupertino, California, USA
-      <br />
+      <div>20196 Northbrook Square, 95014 Cupertino, California, USA</div>
       <strong>Email: </strong>
-      launch@auxilin.com
+      <a href="mailto:launch@auxilin.com">launch@auxilin.com</a>
       <div className={styles.logo}>
         <Logo />
       </div>
-      <span>© 2018 Auxilin, all rights reserved.</span>
+      <span>{`© ${new Date().getFullYear()} Auxilin, all rights reserved.`}</span>
     </div>
   </footer>
 );
