@@ -8,18 +8,14 @@ const pics = [
     img: 'static/strategy.jpg',
     alt: 'Strategy',
     content: (
-      <span className={styles.text}>
-        Strategy
-      </span>
+      <span className={styles.text}>Strategy</span>
     ),
   },
   {
     img: 'static/launch.jpg',
     alt: 'Launch',
     content: (
-      <span className={styles.text}>
-        Launch
-      </span>
+      <span className={styles.text}>Launch</span>
     ),
   },
   {
@@ -27,9 +23,9 @@ const pics = [
     alt: 'CI',
     content: (
       <span className={classnames(styles.text, styles.twoLines)}>
-        Continuous
+        {'Continuous'}
         <br />
-        Integration
+        {'Integration'}
       </span>
     ),
   },
@@ -37,9 +33,7 @@ const pics = [
     img: 'static/monitoring.jpg',
     alt: 'Monitoring',
     content: (
-      <span className={styles.text}>
-        Monitoring
-      </span>
+      <span className={styles.text}>Monitoring</span>
     ),
   },
   {
@@ -47,7 +41,7 @@ const pics = [
     alt: 'Stack',
     content: (
       <span className={styles.text}>
-         Node &amp; React
+        {'Node & React'}
       </span>
     ),
   },
@@ -56,9 +50,9 @@ const pics = [
     alt: 'Deployment',
     content: (
       <span className={classnames(styles.text, styles.twoLines)}>
-        Easy
+        {'Easy'}
         <br />
-        Deployment
+        {'Deployment'}
       </span>
     ),
   },

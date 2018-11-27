@@ -30,23 +30,23 @@
   }
 }
 
-.textWrap {
+.text-wrap {
   position: relative;
   height: 0;
   width: 100%;
-  top: calc(-50% - 2em);
+  top: calc(-50% - var(--text-1000));
   text-align: center;
 }
 
 .text {
   font-weight: var(--text-weight-700);
   color: var(--white);
-  font-size: 1.5em;
-  line-height: 3em;
+  font-size: var(--text-800);
+  line-height: calc(var(--text-800) * 3);
   background: var(--black-opacity);
   display: block;
 
-  &.twoLines {
-    line-height: 1.5em;
+  &.two-lines {
+    line-height: var(--text-1000);
   }
 }

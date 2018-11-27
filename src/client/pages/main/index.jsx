@@ -31,25 +31,25 @@ export default () => (
     <Layout.Header></Layout.Header>
     <Layout.Section className={styles.intro}>
       <h1 className={styles.title}>
-        Launch it right.
+        {'Launch it right.'}
         {' '}
         <Green>Now.</Green>
       </h1>
       <p className={classnames(styles.subtitle, styles.short)}>
-        Auxilin is an open-source, production-ready starter kit
+        {`Auxilin is an open-source, production-ready starter kit
         for building SaaS products at a warp speed.
-        We save development time and allow you to focus on the nitty gritty of the idea.
+        We save development time and allow you to focus on the nitty gritty of the idea.`}
       </p>
     </Layout.Section>
     <Video />
     <Layout.Section className={styles.help}>
       <div className={styles.leftSide}>
         <h1 className={classnames(styles.title, styles.right, styles.large)}>
-          We help you
+          {'We help you'}
           {' '}
           <Green>launch</Green>
           {' '}
-          quicker, avoid many mistakes and
+          {'quicker, avoid many mistakes and'}
           {' '}
           <Green>succeed</Green>
         </h1>
@@ -61,13 +61,13 @@ export default () => (
     <Layout.Section className={styles.clients} isNoBorder>
       <div className={styles.leftSide}>
         <h1 className={classnames(styles.title, styles.right, styles.large)}>
-          Clients
-          speak
+          {'Clients speak'}
         </h1>
       </div>
       <div className={styles.rightSide}>
         <p className={classnames(styles.subtitle, styles.short, styles.quote)}>
-          Auxilin saved us a lot of time to launch Maqpie back in 2017. Keep up great work.
+          {`Auxilin saved us a lot of time to launch Maqpie back in 2017.
+          Keep up great work.`}
         </p>
         <div className={styles.client}>
           <img
@@ -76,7 +76,7 @@ export default () => (
             className={styles.clientPhoto}
           />
           <p className={classnames(styles.subtitle, styles.short, styles.bold)}>
-            Andrew, CEO at Maqpie
+            {'Andrew, CEO at Maqpie'}
           </p>
         </div>
       </div>
@@ -85,13 +85,17 @@ export default () => (
       <div className={styles.leftSide}>
         <h1 className={classnames(styles.title, styles.right, styles.large)}>
           <div>What are</div>
-          you waiting for?
+          {'you waiting for?'}
         </h1>
       </div>
       <div className={styles.rightSide}>
         <div className={styles.center}>
-          <ButtonLink className={styles.button} href="/signup" state={states.green}>
-            Get started for free
+          <ButtonLink
+            className={styles.button}
+            href="/signup"
+            state={states.green}
+          >
+            {'Get started for free'}
           </ButtonLink>
         </div>
       </div>
