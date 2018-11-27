@@ -5,13 +5,12 @@ import Head from 'next/head';
 
 import Layout from '~/layouts/main';
 import ButtonLink from '~/components/button-link';
-
-import '~/styles/global.pcss';
+import { states } from '~/constants';
 
 import styles from './styles.pcss';
 
-import Video from './components/Video';
-import Pics from './components/Pics';
+import Video from './components/video';
+import Pics from './components/pics';
 
 const Green = ({ children }) => {
   return (
@@ -85,14 +84,13 @@ export default () => (
     <Layout.Section className={styles.waiting} isNoBorder isWithShadow>
       <div className={styles.leftSide}>
         <h1 className={classnames(styles.title, styles.right, styles.large)}>
-          What are
-          <br />
+          <div>What are</div>
           you waiting for?
         </h1>
       </div>
       <div className={styles.rightSide}>
         <div className={styles.center}>
-          <ButtonLink className={styles.button} href="/signup" state="green">
+          <ButtonLink className={styles.button} href="/signup" state={states.green}>
             Get started for free
           </ButtonLink>
         </div>

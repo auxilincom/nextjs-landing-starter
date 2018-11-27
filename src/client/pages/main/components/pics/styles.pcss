@@ -11,6 +11,10 @@
   img {
     width: 100%;
   }
+
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
 }
 
 .pics {
@@ -20,6 +24,10 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: var(--distance-1600) 0;
+
+  @media screen and (max-width: 700px) {
+    padding-top: 0;
+  }
 }
 
 .textWrap {
@@ -32,23 +40,13 @@
 
 .text {
   font-weight: var(--text-weight-700);
-  color: white;
+  color: var(--white);
   font-size: 1.5em;
   line-height: 3em;
-  background: #040404a6;
+  background: var(--black-opacity);
   display: block;
 
   &.twoLines {
     line-height: 1.5em;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .pic {
-    width: 100%;
-  }
-
-  .pics {
-    padding-top: 0;
   }
 }

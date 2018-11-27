@@ -5,6 +5,18 @@
   background-image: url(/static/video-preview.jpg);
   height: 500px;
   display: flex;
+
+  @media screen and (max-width: 1000px) {
+    height: 400px;
+  }
+
+  @media screen and (max-width: 800px) {
+    height: 300px;
+  }
+
+  @media screen and (max-width: 800px) {
+    height: 200px;
+  }
 }
 
 .playButton {
@@ -72,23 +84,5 @@
 
   &:hover {
     opacity: 0.1;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .page {
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .page {
-    height: 300px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .page {
-    height: 200px;
   }
 }

@@ -6,10 +6,10 @@
 }
 
 .title {
-  color: #000;
+  color: var(--black);
   text-align: left;
   font-size: var(--text-1350);
-  line-height: 1.1;
+  line-height: var(--text-line-height-110);
   font-family: roboto, sans-serif;
   font-weight: var(--text-weight-600);
 
@@ -24,11 +24,15 @@
   &.large {
     font-size: var(--text-1510);
   }
+
+  div {
+    color: inherit;
+  }
 }
 
 .subtitle {
   font-size: var(--text-700);
-  line-height: var(--text-line-height);
+  line-height: var(--text-line-height-170);
   margin: 0;
 
   &.short {
@@ -59,6 +63,31 @@
   h1 {
     margin: var(--distance-1300) 0;
   }
+
+  @media screen and (max-width: 1000px) {
+    .leftSide {
+      .title {
+        font-size: 50px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+
+    .leftSide {
+      width: 100%;
+
+      .title {
+        text-align: center;
+      }
+    }
+
+    .rightSide {
+      width: 100%;
+      margin: 0;
+    }
+  }
 }
 
 .clients {
@@ -69,6 +98,24 @@
 
   h1 {
     margin: 0;
+  }
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+
+    .leftSide {
+      width: 100%;
+
+      .title {
+        text-align: center;
+        font-size: var(--text-1200);
+      }
+    }
+
+    .rightSide {
+      width: 100%;
+      margin: 0;
+    }
   }
 }
 
@@ -97,12 +144,36 @@
 
 .bold {
   font-weight: bold;
-  color: black;
+  color: var(--black);
 }
 
 .waiting {
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+
+    .leftSide {
+      width: 100%;
+
+      .title {
+        text-align: center;
+        font-size: var(--text-1200);
+      }
+    }
+
+    .rightSide {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      padding-bottom: 34px;
+
+      button {
+        margin: auto;
+      }
+    }
+  }
 }
 
 .center {
@@ -120,7 +191,7 @@
   font-size: var(--text-600);
   font-weight: var(--text-weight-600);
   transition: all 0.3s ease-in-out;
-  color: #fff;
+  color: var(--white);
   display: inline-block;
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
   border-radius: 33px;
@@ -132,81 +203,10 @@
   }
 
   &:hover {
-    background-color: #fff;
-    color: #fff;
+    background-color: var(--white);
+    color: var(--white);
     transform: translateY(-2px);
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.24);
     border-radius: 33px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .help {
-    .leftSide {
-      .title {
-        font-size: 50px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .help {
-    flex-direction: column;
-
-    .leftSide {
-      width: 100%;
-
-      .title {
-        text-align: center;
-      }
-    }
-
-    .rightSide {
-      width: 100%;
-      margin: 0;
-    }
-  }
-
-  .clients {
-    flex-direction: column;
-
-    .leftSide {
-      width: 100%;
-
-      .title {
-        text-align: center;
-        font-size: var(--text-1200);
-      }
-    }
-
-    .rightSide {
-      width: 100%;
-      margin: 0;
-    }
-  }
-
-  .waiting {
-    flex-direction: column;
-
-    .leftSide {
-      width: 100%;
-
-      .title {
-        text-align: center;
-        font-size: var(--text-1200);
-      }
-    }
-
-    .rightSide {
-      width: 100%;
-      margin: 0;
-      text-align: center;
-      padding-bottom: 33.5px;
-
-      button {
-        margin: auto;
-      }
-    }
   }
 }
