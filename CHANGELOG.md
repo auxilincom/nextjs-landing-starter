@@ -1,3 +1,7 @@
+## v0.3.1 (2019-03-27)
+
+- Update verison of Next.js
+
 ## v0.3.0 (2018-11-27)
 
 - Update design
