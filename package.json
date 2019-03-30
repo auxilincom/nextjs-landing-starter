@@ -1,6 +1,6 @@
 {
   "name": "nextjs-landing-starter",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "Common landing website starter driven by next.js",
   "main": "src/server/app.js",
   "author": "Auxilin",

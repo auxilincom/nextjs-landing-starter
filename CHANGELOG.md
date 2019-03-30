@@ -1,3 +1,7 @@
+## v0.3.2 (2019-03-30)
+
+- Fix eslint error
+
 ## v0.3.1 (2019-03-27)
 
 - Update verison of Next.js
