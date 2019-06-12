@@ -1,3 +1,8 @@
+## v0.4.0 (2019-06-12)
+
+- Update npm dependencies
+- Fix css hot reload
+
 ## v0.3.2 (2019-03-30)
 
 - Fix eslint error
