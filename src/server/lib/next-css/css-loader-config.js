@@ -106,7 +106,13 @@ module.exports = (
   }
 
   return [
-    !isServer && ExtractCssChunks.loader,
+    !isServer && {
+      loader: ExtractCssChunks.loader,
+      options: {
+        hot: true, // if you want HMR
+        reloadAll: true, // when desperation kicks in - this is a brute force HMR flag
+      },
+    },
     cssLoader,
     postcssLoader,
     ...loaders,
