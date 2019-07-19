@@ -1,3 +1,9 @@
+## v0.5.0 (2019-06-12)
+
+- Update npm dependencies
+- Replace `babel-plugin-inline-svg` with `react-svg-loader`
+- Fix eslint errors
+
 ## v0.4.0 (2019-06-12)
 
 - Update npm dependencies
