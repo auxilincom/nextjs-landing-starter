@@ -1,3 +1,9 @@
+## v0.6.0 (2019-08-03)
+
+- Update npm dependencies
+- Add prettier
+- Update redirect logic after successful sign in
+
 ## v0.5.0 (2019-06-12)
 
 - Update npm dependencies
