@@ -17,9 +17,7 @@ const formatError = (err) => {
       if (err.data && err.data.errors) {
         return err.data.errors.map((e) => {
           return Object.values(e).map((errorValue) => {
-            return (
-              <div>{errorValue}</div>
-            );
+            return <div>{errorValue}</div>;
           });
         });
       }
@@ -35,11 +33,7 @@ const ErrorComponent = ({ error }) => {
     return null;
   }
 
-  return (
-    <div className={styles.error}>
-      {formatError(error)}
-    </div>
-  );
+  return <div className={styles.error}>{formatError(error)}</div>;
 };
 
 ErrorComponent.propTypes = {

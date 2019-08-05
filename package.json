@@ -1,6 +1,6 @@
 {
   "name": "nextjs-landing-starter",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Common landing website starter driven by next.js",
   "main": "src/server/app.js",
   "author": "Auxilin",
@@ -26,6 +26,7 @@
     "test": "run-s test:**",
     "test:eslint": "eslint src/**/*.js src/**/*.jsx",
     "test:lint-styles": "stylelint \"src/client/**/*.pcss\"",
+    "format": "prettier-eslint --write \"src/**/*.?(js|jsx)\"",
     "add-contributor": "all-contributors add",
     "generate-contributors": "all-contributors generate"
   },
@@ -36,7 +37,7 @@
     "cssnano": "4.1.10",
     "extract-css-chunks-webpack-plugin": "4.5.6",
     "find-up": "4.1.0",
-    "lodash": "4.17.14",
+    "lodash": "4.17.15",
     "next": "9.0.2",
     "normalize.css": "8.0.1",
     "npm-run-all": "4.1.5",
@@ -53,16 +54,17 @@
   },
   "devDependencies": {
     "@auxilin/eslint-config": "0.1.1",
-    "all-contributors-cli": "6.8.0",
+    "all-contributors-cli": "6.8.1",
     "babel-eslint": "10.0.2",
     "babel-plugin-module-resolver": "3.2.0",
     "css-loader": "3.1.0",
     "eslint": "5.16.0",
-    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.14.2",
+    "eslint-plugin-react": "7.14.3",
     "extracted-loader": "1.0.7",
     "postcss-loader": "3.0.0",
+    "prettier-eslint-cli": "5.0.0",
     "react-svg-loader": "3.0.3"
   }
 }
