@@ -1,3 +1,7 @@
+## v0.7.2 (2019-09-01)
+
+- Fix build issue
+
 ## v0.7.1 (2019-08-31)
 
 - Fix build issue
