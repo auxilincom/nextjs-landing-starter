@@ -1,3 +1,7 @@
+## v0.7.3 (2019-09-05)
+
+- Update npm dependencies
+
 ## v0.7.2 (2019-09-01)
 
 - Fix build issue
